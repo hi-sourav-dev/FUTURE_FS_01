@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Portfolio (Vite + React + Node + MongoDB)
 
 ## Structure
@@ -20,3 +21,6 @@ Frontend runs at http://localhost:5173 and expects backend at http://localhost:5
 ## Notes
 - This is a starter scaffold. Replace placeholders (links, images, text) with your real content.
 - For deploying, you can use Vercel/Netlify for frontend and Render/Heroku/Railway for backend.
+=======
+# FUTURE_FS_01
+>>>>>>> c6a2002f7440bd503cb8f0b34e5e3e96b48fe021
