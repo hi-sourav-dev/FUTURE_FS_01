@@ -16,7 +16,6 @@
    - copy .env.example to .env and update MONGO_URI and email credentials if you want email sending
    - npm run dev
 
-Frontend runs at http://localhost:5173 and expects backend at http://localhost:5000
 
 ## Notes
 - This is a starter scaffold. Replace placeholders (links, images, text) with your real content.
