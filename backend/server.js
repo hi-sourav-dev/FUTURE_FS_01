@@ -11,7 +11,7 @@ app.use(cors())
 
 const PORT = process.env.PORT || 5000
 
-mongoose.connect(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/portfolio')
+mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://souravshaw1974_db_user:souravshaw1974@cluster0.xzeh5gx.mongodb.net/')
   .then(()=> console.log('MongoDB connected'))
   .catch(err => console.log('Mongo error', err))
 
