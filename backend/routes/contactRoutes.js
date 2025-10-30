@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import express from "express";
+>>>>>>> update-contact
 import Contact from "../models/Contact.js";
 import SibApiV3Sdk from "@sendinblue/client";
 
@@ -28,4 +32,9 @@ router.post("/", async (req, res) => {
   }
 });
 
+<<<<<<< HEAD
 export default router;
+=======
+export default router;
+
+>>>>>>> update-contact

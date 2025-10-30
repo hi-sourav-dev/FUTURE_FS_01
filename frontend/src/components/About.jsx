@@ -9,7 +9,9 @@ const About = () => {
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      viewport={{ once: true, amount: 0.8 }}>
+
+      viewport={{ once: true, amount: 0.3 }}>
+
       <h2>About Me</h2>
       <div className="about-container">
         {/* Left Side – About Description */}
