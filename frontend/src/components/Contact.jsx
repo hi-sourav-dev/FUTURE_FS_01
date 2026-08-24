@@ -10,12 +10,13 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+    setStatus('Sending...')
     try {
       const res = await axios.post('https://future-fs-01-opxs.onrender.com/api/contact', form)
       setStatus(res.data.message || 'Message sent!')
       setForm({ name: '', email: '', message: '' })
     } catch (err) {
-      setStatus('Failed to send message')
+      setStatus('Failed to send message. Please try again in a moment.')
     }
   }
 
