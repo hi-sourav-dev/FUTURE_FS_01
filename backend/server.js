@@ -25,7 +25,8 @@ app.use('/api/contact', contactRoutes)
 app.get('/api/projects', (req, res) => {
   res.json([
     { _id: 1, title: "Food Booking App", description: "HTML + CSS + JS + Node + Razorpay", link: "", image: "" },
-    { _id: 2, title: "Micro Blog", description: "React + Vite", link: "", image: "" }
+    { _id: 2, title: "Micro Blog", description: "React + Vite + Node ", link: "", image: "" },
+    { _id: 3, title: "Zesteats-Food delivery app", description: "React + Node + Express + mongoDB +  Razorpay", link: "", image: ""}
   ])
 })
 

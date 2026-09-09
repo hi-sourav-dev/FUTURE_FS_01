@@ -18,7 +18,7 @@ function App() {
     event.preventDefault();
     setStatus('Sending...');
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch('https://future-fs-01-opxs.onrender.com/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
@@ -47,7 +47,7 @@ function App() {
 
       <main id="top">
         <section className="hero">
-          <div className="hero-profile"><img src={profilePic} alt="Sourav Shaw profile" /></div><p className="eyebrow">MERN STACK DEVELOPER · FULL STACK DEVELOPER · AWS CLOUD PRACTITIONER</p>
+          <div className="hero-profile"><img src={profilePic} alt="Sourav Shaw profile" /></div><p className="eyebrow">MERN Stack Developer · Full Stack Developer · AWS Cloud Practitioner</p>
           <h1>Building digital<br /><span>experiences</span> that matter.</h1>
           <p className="lead">I’m Sourav Shaw, a BCA (Hons) student passionate about creating efficient, scalable full-stack web solutions—from database design to polished user interfaces.</p>
           <p className="location">India-based · Open to internship and entry-level opportunities</p>
