@@ -12,7 +12,8 @@ export default function Projects(){
         // fallback sample projects
         setProjects([
           { _id: 1, title: "Food Booking App", description: "HTML + CSS + JS  + Node + Razorpay", link: "https://github.com/hi-sourav-dev/project_petpujo", image: "" },
-          { _id: 2, title: "Micro Blog", description: "React + Vite", link: "https://github.com/hi-sourav-dev/microblog_project", image: "" }
+          { _id: 2, title: "Micro Blog", description: "React + Vite", link: "https://github.com/hi-sourav-dev/microblog_project", image: "" },
+          { _id: 3, title: "ZestEats", description: "MERN + Socket.io + JWT + Razorpay", link: "https://github.com/hi-sourav-dev/zesteats_project", image: "" }
         ])
       })
   },[])
@@ -34,7 +35,7 @@ export default function Projects(){
             {p.image && <img src={p.image} alt={p.title} />}
             <h3>{p.title}</h3>
             <p>{p.description}</p>
-            {p.link && <a href={p.link} target="_blank" rel="noreferrer">View</a>}
+            {p.link && <a className="project-link" href={p.link} target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>}
           </article>
         ))}
       </div>
